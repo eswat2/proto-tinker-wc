@@ -1,0 +1,152 @@
+*,
+::before,
+::after {
+  --tw-ring-offset-shadow: 0 0 #0000;
+  --tw-ring-shadow: 0 0 #0000;
+  --tw-shadow: 0 0 #0000;
+  --tw-shadow-colored: 0 0 #0000;
+}
+
+.ds1-main {
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  font-family: ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont,
+    'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif,
+    'Apple Color Emoji', 'Segoe UI Emoji', 'Segoe UI Symbol', 'Noto Color Emoji';
+  color: var(--clrs-navy, #001f3f);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.ds1-button {
+  display: flex;
+  align-items: center;
+  border-style: solid;
+  border-color: var(--clrs-slate, #708090);
+  color: var(--clrs-white, #ffffff);
+}
+
+.ds1-button:active {
+  background-color: var(--clrs-gray, #aaaaaa);
+  color: var(--clrs-navy, #001f3f);
+}
+
+.absolute {
+  position: absolute;
+}
+
+.top-8 {
+  top: 2rem;
+}
+
+.right-8 {
+  right: 2rem;
+}
+
+.mt-3 {
+  margin-top: 0.75rem;
+}
+
+.mb-10px {
+  margin-bottom: 10px;
+}
+
+.mr-10px {
+  margin-right: 10px;
+}
+
+.mt-5px {
+  margin-top: 5px;
+}
+
+.mr-0 {
+  margin-right: 0px;
+}
+
+.ml-0 {
+  margin-left: 0px;
+}
+
+.ml-auto {
+  margin-left: auto;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex-col {
+  flex-direction: column;
+}
+
+.flex-wrap {
+  flex-wrap: wrap;
+}
+
+.items-center {
+  align-items: center;
+}
+
+.bg-clrs-blue {
+  background-color: var(--clrs-blue, #0074d9);
+}
+
+.bg-clrs-red {
+  background-color: var(--clrs-red, #ff4136);
+}
+
+.align-top {
+  vertical-align: top;
+}
+
+.text-xs {
+  font-size: 0.75rem;
+  line-height: 1rem;
+}
+
+.font-bold {
+  font-weight: 700;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.text-clrs-slate4 {
+  color: var(--clrs-slate4, #4e5964);
+}
+
+.text-clrs-gray {
+  color: var(--clrs-gray, #aaaaaa);
+}
+
+.shadow {
+  --tw-shadow: 0 1px 3px 0 rgb(0 0 0 / 0.1), 0 1px 2px -1px rgb(0 0 0 / 0.1);
+  --tw-shadow-colored: 0 1px 3px 0 var(--tw-shadow-color),
+    0 1px 2px -1px var(--tw-shadow-color);
+  box-shadow: var(--tw-ring-offset-shadow, 0 0 #0000),
+    var(--tw-ring-shadow, 0 0 #0000), var(--tw-shadow);
+}
+
+.data-button {
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 5px;
+  margin: 0px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.funnel {
+  width: calc(100% - 20px);
+  height: 100%;
+  padding: 10px;
+  padding-bottom: 7px;
+  border-radius: 10px;
+  border-width: 1px;
+}
+
+.hover\:text-clrs-navy:hover {
+  color: var(--clrs-navy, #001f3f);
+}

@@ -1,0 +1,51 @@
+{
+  "name": "proto-tinker-wc",
+  "version": "0.0.0",
+  "description": "prototype - simple demo built from Stencil & Tailwind",
+  "main": "dist/index.cjs.js",
+  "module": "dist/index.js",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "collection:main": "dist/collection/index.js",
+  "unpkg": "dist/proto-tinker-wc/proto-tinker-wc.js",
+  "files": [
+    "dist/",
+    "loader/"
+  ],
+  "scripts": {
+    "twx": "sh ./.generate",
+    "build": "yarn twx; yarn format; stencil build --docs",
+    "start": "stencil build --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll",
+    "generate": "stencil generate",
+    "predeploy": "yarn build",
+    "deploy": "yarn publish --patch",
+    "spell": "cspell 'src/**/*.{ts,tsx,html,css,md}' ",
+    "cc": "prettier --check src",
+    "format": "prettier --write src"
+  },
+  "dependencies": {
+    "@stencil/core": "2.12.0",
+    "@stencil/store": "1.5.0",
+    "between.js": "0.1.2-fix.2"
+  },
+  "devDependencies": {
+    "@types/jest": "27.0.3",
+    "@types/puppeteer": "5.4.4",
+    "autoprefixer": "10.4.0",
+    "cspell": "5.13.3",
+    "eslint": "8.4.1",
+    "jest": "26.6.3",
+    "postcss": "8.4.5",
+    "prettier": "2.5.1",
+    "proto-tailwindcss-clrs": "0.0.76",
+    "puppeteer": "13.0.0",
+    "tailwindcss": "3.0.2",
+    "tslint": "6.1.3",
+    "typescript": "4.5.4"
+  },
+  "license": "MIT"
+}

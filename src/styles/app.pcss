@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+  .ds1-main {
+    @apply flex flex-col p-4 text-clrs-navy font-sans antialiased;
+  }
+  .ds1-button {
+    @apply border-solid border-clrs-slate flex items-center text-clrs-white active:text-clrs-navy active:bg-clrs-gray;
+  }
+  .funnel {
+    @apply bg-clrs-silver border-solid border-clrs-gray;
+  }
+}
+
+.data-button {
+  border-radius: 5px;
+  border-width: 1px;
+  padding: 5px;
+  margin: 0px;
+  margin-right: 5px;
+  cursor: pointer;
+}
+
+.funnel {
+  width: calc(100% - 20px);
+  height: 100%;
+  padding: 10px;
+  padding-bottom: 7px;
+  border-radius: 10px;
+  border-width: 1px;
+}
