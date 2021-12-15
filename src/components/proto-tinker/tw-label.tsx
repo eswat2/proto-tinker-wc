@@ -1,6 +1,6 @@
 import { FunctionalComponent, h } from '@stencil/core';
 
-const TW_VERSION = '3.0.2';
+const TW_VERSION = '3.0.5';
 
 const TwLabel: FunctionalComponent = _props => {
   return (
