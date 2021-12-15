@@ -15,6 +15,7 @@
     "loader/"
   ],
   "scripts": {
+    "dev": "concurrently \"yarn:twx --watch\" \"yarn:start\"",
     "twx": "sh ./.generate",
     "build": "yarn twx; yarn format; stencil build --docs",
     "start": "stencil build --dev --watch --serve",
@@ -33,6 +34,7 @@
   },
   "devDependencies": {
     "autoprefixer": "10.4.0",
+    "concurrently": "6.4.0",
     "cspell": "5.13.3",
     "eslint": "8.4.1",
     "postcss": "8.4.5",

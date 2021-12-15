@@ -9,7 +9,7 @@ a prototype app written in Stencil and Tailwind, deployed via NPM and Vercel...
 To run this locally:
 
 1. `yarn`
-2. `yarn start`
+2. `yarn dev`
 
 ## references
 
