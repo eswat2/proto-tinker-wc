@@ -14,12 +14,10 @@ To run this locally:
 ## references
 
 - [proto-tailwindcss-clrs][clrs-tw] - _TailwindCSS plugin for custom colors_
-- [Quick Tip][quick-tip] - _Dynamic Stencil Component Names with JSX_
 - [Simple Trick to Clean Up Tailwind CSS in React][tw-trick] - _the tw utility_
 
 
 
 [wc-tinker]: https://wc-tinker.vercel.app
 [clrs-tw]: https://github.com/eswat2/proto-tailwindcss-clrs
-[quick-tip]: https://gilfink.medium.com/quick-tip-dynamic-stencil-component-names-with-jsx-cf7687a418e6
 [tw-trick]: https://www.skies.dev/tailwind-react-trick

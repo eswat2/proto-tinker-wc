@@ -19,7 +19,8 @@
     "proto",
     "tailwindcss",
     "tweening",
-    "valpha"
+    "valpha",
+    "vercel"
   ],
   "ignorePaths": [
     "cSpell.json",
