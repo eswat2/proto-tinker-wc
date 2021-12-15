@@ -15,9 +15,12 @@ To run this locally:
 
 - [proto-tailwindcss-clrs][clrs-tw] - _TailwindCSS plugin for custom colors_
 - [Simple Trick to Clean Up Tailwind CSS in React][tw-trick] - _the tw utility_
+- [TailwindCSS][tailwind-css] - _a utility-first CSS framework_
+
 
 
 
 [wc-tinker]: https://wc-tinker.vercel.app
 [clrs-tw]: https://github.com/eswat2/proto-tailwindcss-clrs
 [tw-trick]: https://www.skies.dev/tailwind-react-trick
+[tailwind-css]: https://tailwindcss.com
