@@ -138,15 +138,6 @@
   cursor: pointer;
 }
 
-.funnel {
-  width: calc(100% - 20px);
-  height: 100%;
-  padding: 10px;
-  padding-bottom: 7px;
-  border-radius: 10px;
-  border-width: 1px;
-}
-
 .hover\:text-clrs-navy:hover {
   color: var(--clrs-navy, #001f3f);
 }
