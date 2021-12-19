@@ -2,12 +2,13 @@ import { FunctionalComponent, h } from '@stencil/core';
 import { ChevronDoubleLeft } from './chevron-double-left';
 import { Close } from './close';
 import { Refresh } from './refresh';
-import { store, actions } from '../../utils';
+import { FunctionalProps } from '../../utils';
 
 const help: string = 'click a button... ';
 
-const DataSource: FunctionalComponent = _props => {
-  const { count } = store.state;
+const DataSource: FunctionalComponent<FunctionalProps> = props => {
+  const { actions, state } = props;
+  const { count } = state;
 
   return (
     <div class="flex mt-3 mb-10px items-center">

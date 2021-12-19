@@ -1,8 +1,8 @@
 import { createStore } from '@stencil/store';
 import { sample } from './funnel-defs';
-import { StoreDef, ActionsDef } from './types';
+import { StateDef, ActionsDef } from './types';
 
-const initStore: StoreDef = {
+const initStore: StateDef = {
   count: 0,
   pick: 'bada55',
   values: [...sample],
@@ -28,5 +28,5 @@ const actions: ActionsDef = {
   },
 };
 
-export { store, actions };
+export { state, actions };
 export default store;

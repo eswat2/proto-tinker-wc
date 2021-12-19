@@ -1,9 +1,10 @@
 import { FunctionalComponent, h } from '@stencil/core';
 import { TwLabel } from './tw-label';
-import { store } from '../../utils';
+import { FunctionalProps } from '../../utils';
 
-const DataValues: FunctionalComponent = _props => {
-  const { values, pick, count } = store.state;
+const DataValues: FunctionalComponent<FunctionalProps> = props => {
+  const { state } = props;
+  const { values, pick, count } = state;
 
   return (
     <div class="flex">

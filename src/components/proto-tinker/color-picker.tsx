@@ -1,9 +1,10 @@
 import { FunctionalComponent, h } from '@stencil/core';
 import { Radio } from './radio';
-import { colorKeys, colorFor, store, actions } from '../../utils';
+import { colorKeys, colorFor, FunctionalProps } from '../../utils';
 
-const ColorPicker: FunctionalComponent = _props => {
-  const { pick } = store.state;
+const ColorPicker: FunctionalComponent<FunctionalProps> = props => {
+  const { actions, state } = props;
+  const { pick } = state;
 
   return (
     <div id="toolbar" class="flex flex-wrap" role="radiogroup">

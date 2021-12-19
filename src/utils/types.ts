@@ -20,11 +20,11 @@ interface FunnelObj {
   drop: number;
 }
 
-interface StoreDef {
-  count: number;
-  pick: string;
-  values: number[];
+interface ColorDict {
+  [index: string]: string;
 }
+
+type CreateFn = (props: FunnelObj) => BarObj;
 
 interface ActionsDef {
   refresh: () => void;
@@ -32,8 +32,15 @@ interface ActionsDef {
   updatePick: (pick: string) => void;
 }
 
-interface ColorDict {
-  [index: string]: string;
+interface StateDef {
+  count: number;
+  pick: string;
+  values: number[];
+}
+
+interface FunctionalProps {
+  actions?: ActionsDef;
+  state?: StateDef;
 }
 
 interface IconProps {
@@ -44,14 +51,13 @@ interface IconProps {
   size?: number;
 }
 
-type CreateFn = (props: FunnelObj) => BarObj;
-
 export type {
   BarObj,
   FunnelObj,
-  StoreDef,
-  ActionsDef,
   ColorDict,
   CreateFn,
+  ActionsDef,
+  StateDef,
+  FunctionalProps,
   IconProps,
 };
