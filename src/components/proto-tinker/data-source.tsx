@@ -2,11 +2,11 @@ import { FunctionalComponent, h } from '@stencil/core';
 import { ChevronDoubleLeft } from './chevron-double-left';
 import { Close } from './close';
 import { Refresh } from './refresh';
-import { FunctionalProps } from '../../utils';
+import { ActiveProps } from '../../utils';
 
 const help: string = 'click a button... ';
 
-const DataSource: FunctionalComponent<FunctionalProps> = props => {
+const DataSource: FunctionalComponent<ActiveProps> = props => {
   const { actions, state } = props;
   const { count } = state;
 

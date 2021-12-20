@@ -38,9 +38,13 @@ interface StateDef {
   values: number[];
 }
 
-interface FunctionalProps {
-  actions?: ActionsDef;
-  state?: StateDef;
+interface ActiveProps {
+  actions: ActionsDef;
+  state: StateDef;
+}
+
+interface PassiveProps {
+  state: StateDef;
 }
 
 interface IconProps {
@@ -58,6 +62,7 @@ export type {
   CreateFn,
   ActionsDef,
   StateDef,
-  FunctionalProps,
+  ActiveProps,
+  PassiveProps,
   IconProps,
 };

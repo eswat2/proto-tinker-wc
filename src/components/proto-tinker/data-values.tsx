@@ -1,8 +1,8 @@
 import { FunctionalComponent, h } from '@stencil/core';
 import { TwLabel } from './tw-label';
-import { FunctionalProps } from '../../utils';
+import { PassiveProps } from '../../utils';
 
-const DataValues: FunctionalComponent<FunctionalProps> = props => {
+const DataValues: FunctionalComponent<PassiveProps> = props => {
   const { state } = props;
   const { values, pick, count } = state;
 

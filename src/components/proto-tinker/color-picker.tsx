@@ -1,8 +1,8 @@
 import { FunctionalComponent, h } from '@stencil/core';
 import { Radio } from './radio';
-import { colorKeys, colorFor, FunctionalProps } from '../../utils';
+import { colorKeys, colorFor, ActiveProps } from '../../utils';
 
-const ColorPicker: FunctionalComponent<FunctionalProps> = props => {
+const ColorPicker: FunctionalComponent<ActiveProps> = props => {
   const { actions, state } = props;
   const { pick } = state;
 
