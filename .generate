@@ -4,6 +4,11 @@ DIR=./src/components/$COMPONENT
 INPUT=./src/styles/app.pcss
 OUTPUT=$DIR/$COMPONENT.css
 
+if [ -f .tw-version ]
+then
+  sh .tw-version
+fi
+
 if [ -f $INPUT ]
 then
   if [ -d $DIR ]
