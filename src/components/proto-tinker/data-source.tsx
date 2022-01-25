@@ -11,7 +11,7 @@ const DataSource: FunctionalComponent<ActiveProps> = props => {
   const { count } = state;
 
   return (
-    <div class="flex mt-3 mb-10px items-center">
+    <div class="mt-3 mb-10px flex items-center">
       <button
         aria-label="Refresh"
         title="Refresh"

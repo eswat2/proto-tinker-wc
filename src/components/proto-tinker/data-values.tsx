@@ -10,11 +10,11 @@ const DataValues: FunctionalComponent<PassiveProps> = props => {
     <div class="flex">
       <div class="flex flex-col">
         <div class="flex">
-          <span class="font-bold mr-10px">color:</span>
+          <span class="mr-10px font-bold">color:</span>
           <span class="italic text-clrs-slate4">{pick}</span>
         </div>
-        <div class="flex mt-5px">
-          <span class="font-bold mr-10px">sample:</span>
+        <div class="mt-5px flex">
+          <span class="mr-10px font-bold">sample:</span>
           <span class="italic text-clrs-slate4">{`${
             count > 0 ? values : '...'
           }`}</span>
