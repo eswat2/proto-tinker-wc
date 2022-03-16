@@ -33,14 +33,14 @@
     "between.js": "0.1.2-fix.2"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.3",
+    "autoprefixer": "10.4.4",
     "concurrently": "7.0.0",
     "cspell": "5.19.2",
     "eslint": "8.11.0",
-    "postcss": "8.4.11",
-    "prettier": "2.5.1",
+    "postcss": "8.4.12",
+    "prettier": "2.6.0",
     "prettier-plugin-tailwindcss": "0.1.8",
-    "proto-tailwindcss-clrs": "0.0.117",
+    "proto-tailwindcss-clrs": "0.0.118",
     "tailwindcss": "3.0.23",
     "tslint": "6.1.3",
     "typescript": "4.6.2"
