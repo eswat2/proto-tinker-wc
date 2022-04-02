@@ -34,11 +34,11 @@
   },
   "devDependencies": {
     "autoprefixer": "10.4.4",
-    "concurrently": "7.0.0",
+    "concurrently": "7.1.0",
     "cspell": "5.19.5",
     "eslint": "8.12.0",
     "postcss": "8.4.12",
-    "prettier": "2.6.1",
+    "prettier": "2.6.2",
     "prettier-plugin-tailwindcss": "0.1.8",
     "proto-tailwindcss-clrs": "0.0.118",
     "tailwindcss": "3.0.23",
