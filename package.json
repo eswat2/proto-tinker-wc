@@ -38,7 +38,7 @@
     "cspell": "6.1.2",
     "eslint": "8.17.0",
     "postcss": "8.4.14",
-    "prettier": "2.7.0",
+    "prettier": "2.7.1",
     "prettier-plugin-tailwindcss": "0.1.11",
     "proto-tailwindcss-clrs": "0.0.140",
     "tailwindcss": "3.1.3",
