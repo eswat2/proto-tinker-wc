@@ -35,7 +35,7 @@
   "devDependencies": {
     "autoprefixer": "10.4.7",
     "concurrently": "7.3.0",
-    "cspell": "6.4.0",
+    "cspell": "6.4.1",
     "eslint": "8.20.0",
     "postcss": "8.4.14",
     "prettier": "2.7.1",
