@@ -14,6 +14,7 @@ const ColorPicker: FunctionalComponent<ActiveProps> = props => {
         return (
           <div
             aria-label={key}
+            aria-checked={selected}
             role="radio"
             title={key}
             onClick={() => {
