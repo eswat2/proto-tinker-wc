@@ -28,8 +28,8 @@
     "format": "prettier --write src"
   },
   "dependencies": {
-    "@stencil/core": "2.21.0",
-    "@stencil/store": "2.0.2",
+    "@stencil/core": "2.22.1",
+    "@stencil/store": "2.0.3",
     "between.js": "0.1.2-fix.2"
   },
   "devDependencies": {
