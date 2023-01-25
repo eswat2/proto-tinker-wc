@@ -1,4 +1,4 @@
-interface BarObj {
+type BarObj = {
   id: number;
   height: number;
   width: number;
@@ -9,51 +9,55 @@ interface BarObj {
   mask: string;
   matrix: string;
   points: string;
-}
+};
 
-interface FunnelObj {
+type FunnelObj = {
   id: number;
   height: number;
   width: number;
   x: number;
   y: number;
   drop: number;
-}
+};
 
-interface ColorDict {
+type ColorDict = {
   [index: string]: string;
-}
+};
 
 type CreateFn = (props: FunnelObj) => BarObj;
 
-interface ActionsDef {
+type ActionsDef = {
   refresh: () => void;
   reset: () => void;
   updatePick: (pick: string) => void;
-}
+};
 
-interface StateDef {
+type StateDef = {
   count: number;
   pick: string;
   values: number[];
-}
+};
 
-interface ActiveProps {
+type ActiveProps = {
   actions: ActionsDef;
   state: StateDef;
-}
+};
 
-interface PassiveProps {
+type PassiveProps = {
   state: StateDef;
-}
+};
 
-interface IconProps {
+type IconProps = {
   hex?: string;
   class?: string;
   label?: string;
   selected?: boolean;
   size?: number;
-}
+};
+
+type HeaderProps = {
+  label?: string;
+};
 
 export type {
   BarObj,
@@ -65,4 +69,5 @@ export type {
   ActiveProps,
   PassiveProps,
   IconProps,
+  HeaderProps,
 };

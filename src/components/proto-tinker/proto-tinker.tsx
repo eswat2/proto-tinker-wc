@@ -3,6 +3,7 @@ import { ColorPicker } from './color-picker';
 import { DataSource } from './data-source';
 import { DataValues } from './data-values';
 import { Eswat2Io } from './eswat2-io';
+import { Header } from './header';
 import { actions, state } from '../../utils';
 
 @Component({
@@ -16,6 +17,7 @@ export class ProtoTinker {
   render() {
     return (
       <div id="app" class="ds1-main">
+        <Header label="tinker wc" />
         <Eswat2Io />
         <DataSource actions={actions} state={state} />
         <ColorPicker actions={actions} state={state} />
