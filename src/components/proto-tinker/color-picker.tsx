@@ -10,11 +10,11 @@ const ColorPicker: FunctionalComponent<ActiveProps> = props => {
     <div id="toolbar" class="flex flex-wrap" role="radiogroup">
       {colorKeys.map((key: string) => {
         const hex = colorFor(key);
-        const selected = pick == key;
+        const selected = pick === key;
         return (
           <div
             aria-label={key}
-            aria-checked={selected}
+            aria-checked={selected ? 'true' : 'false'}
             role="radio"
             onClick={() => {
               actions.updatePick(key);
