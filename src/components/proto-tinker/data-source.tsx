@@ -14,23 +14,21 @@ const DataSource: FunctionalComponent<ActiveProps> = props => {
     <div class="mt-3 mb-10px flex items-center">
       <button
         aria-label="Refresh"
-        title="Refresh"
         class="ds1-button data-button bg-clrs-blue"
         onClick={() => {
           actions.refresh();
         }}
       >
-        <Refresh />
+        <Refresh label="Refresh" />
       </button>
       <button
         aria-label="Reset"
-        title="Reset"
         class="ds1-button data-button bg-clrs-red"
         onClick={() => {
           actions.reset();
         }}
       >
-        <Close />
+        <Close label="Reset" />
       </button>
       <span class="flex items-center">
         <ChevronDoubleLeft size={28} />
