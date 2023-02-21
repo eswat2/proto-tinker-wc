@@ -10,6 +10,7 @@ const Eswat2Io: FunctionalComponent = _props => {
       class="absolute top-8 right-8 text-clrs-gray hover:text-clrs-navy"
       href={url}
       aria-label={who}
+      target="blank"
       title={who}
     >
       <Fingerprint label="eswat2" />
