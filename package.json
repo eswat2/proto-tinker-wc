@@ -29,7 +29,7 @@
   },
   "dependencies": {
     "@stencil/core": "3.0.1",
-    "@stencil/store": "2.0.3",
+    "@stencil/store": "2.0.4",
     "between.js": "0.1.2-fix.2"
   },
   "devDependencies": {
