@@ -35,8 +35,8 @@
   "devDependencies": {
     "autoprefixer": "10.4.14",
     "concurrently": "7.6.0",
-    "cspell": "6.28.0",
-    "eslint": "8.35.0",
+    "cspell": "6.29.0",
+    "eslint": "8.36.0",
     "postcss": "8.4.21",
     "prettier": "2.8.4",
     "prettier-plugin-tailwindcss": "0.2.4",
