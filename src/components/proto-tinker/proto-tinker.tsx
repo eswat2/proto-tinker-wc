@@ -21,7 +21,7 @@ export class ProtoTinker {
         <Eswat2Io />
         <DataSource actions={actions} state={state} />
         <ColorPicker actions={actions} state={state} />
-        <hr class="mr-0 ml-0" />
+        <hr class="ml-0 mr-0" />
         <DataValues state={state} />
       </div>
     );
