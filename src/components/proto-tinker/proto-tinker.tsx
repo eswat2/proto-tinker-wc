@@ -14,6 +14,10 @@ import { actions, state } from '../../utils';
 export class ProtoTinker {
   @Prop() tag: string = 'proto-tinker';
 
+  componentDidLoad() {
+    actions.initApp();
+  }
+
   render() {
     return (
       <div id="app" class="ds1-main">

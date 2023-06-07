@@ -27,6 +27,7 @@ type ColorDict = {
 type CreateFn = (props: FunnelObj) => BarObj;
 
 type ActionsDef = {
+  initApp: () => void;
   refresh: () => void;
   reset: () => void;
   updatePick: (pick: string) => void;
