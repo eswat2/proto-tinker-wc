@@ -39,7 +39,7 @@
     "eslint": "8.47.0",
     "postcss": "8.4.27",
     "prettier": "3.0.1",
-    "prettier-plugin-tailwindcss": "0.5.2",
+    "prettier-plugin-tailwindcss": "0.5.3",
     "proto-tailwindcss-clrs": "0.0.264",
     "tailwindcss": "3.3.3",
     "tslint": "6.1.3",
