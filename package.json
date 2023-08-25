@@ -36,7 +36,7 @@
     "autoprefixer": "10.4.15",
     "concurrently": "8.2.1",
     "cspell": "7.0.1",
-    "eslint": "8.47.0",
+    "eslint": "8.48.0",
     "postcss": "8.4.28",
     "prettier": "3.0.2",
     "prettier-plugin-tailwindcss": "0.5.3",
