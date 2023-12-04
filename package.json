@@ -28,14 +28,14 @@
     "format": "prettier --write src"
   },
   "dependencies": {
-    "@stencil/core": "4.8.0",
+    "@stencil/core": "4.8.1",
     "@stencil/store": "2.0.11",
     "between.js": "0.1.2-fix.2"
   },
   "devDependencies": {
     "autoprefixer": "10.4.16",
     "concurrently": "8.2.2",
-    "cspell": "8.1.0",
+    "cspell": "8.1.2",
     "eslint": "8.55.0",
     "postcss": "8.4.32",
     "prettier": "3.1.0",
