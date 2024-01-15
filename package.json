@@ -28,7 +28,7 @@
     "format": "prettier --write src"
   },
   "dependencies": {
-    "@stencil/core": "4.9.1",
+    "@stencil/core": "4.10.0",
     "@stencil/store": "2.0.12",
     "between.js": "0.1.2-fix.2"
   },
@@ -38,7 +38,7 @@
     "cspell": "8.3.2",
     "eslint": "8.56.0",
     "postcss": "8.4.33",
-    "prettier": "3.2.0",
+    "prettier": "3.2.2",
     "prettier-plugin-tailwindcss": "0.5.11",
     "proto-tailwindcss-clrs": "0.0.304",
     "tailwindcss": "3.4.1",
