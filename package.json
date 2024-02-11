@@ -1,6 +1,6 @@
 {
   "name": "proto-tinker-wc",
-  "version": "0.0.416",
+  "version": "0.0.417",
   "description": "prototype - simple demo built from Stencil & Tailwind",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
@@ -40,7 +40,7 @@
     "postcss": "8.4.35",
     "prettier": "3.2.5",
     "prettier-plugin-tailwindcss": "0.5.11",
-    "proto-tailwindcss-clrs": "0.0.308",
+    "proto-tailwindcss-clrs": "0.0.309",
     "tailwindcss": "3.4.1",
     "tslint": "6.1.3",
     "typescript": "5.3.3"
