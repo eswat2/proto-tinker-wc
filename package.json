@@ -40,7 +40,7 @@
     "postcss": "8.4.38",
     "prettier": "3.2.5",
     "prettier-plugin-tailwindcss": "0.5.13",
-    "proto-tailwindcss-clrs": "0.0.319",
+    "proto-tailwindcss-clrs": "0.0.320",
     "tailwindcss": "3.4.3",
     "tslint": "6.1.3",
     "typescript": "5.4.3"
