@@ -28,21 +28,21 @@
     "format": "prettier --write src"
   },
   "dependencies": {
-    "@stencil/core": "4.19.1",
+    "@stencil/core": "4.19.2",
     "@stencil/store": "2.0.16",
     "between.js": "0.1.2-fix.2"
   },
   "devDependencies": {
     "autoprefixer": "10.4.19",
     "concurrently": "8.2.2",
-    "cspell": "8.9.1",
+    "cspell": "8.10.0",
     "eslint": "9.6.0",
     "postcss": "8.4.39",
     "prettier": "3.3.2",
     "prettier-plugin-tailwindcss": "0.6.5",
     "proto-tailwindcss-clrs": "0.0.335",
     "tailwindcss": "3.4.4",
-    "typescript": "5.5.2"
+    "typescript": "5.5.3"
   },
   "license": "MIT"
 }
