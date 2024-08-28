@@ -20,7 +20,7 @@ export class ProtoTinker {
 
   render() {
     return (
-      <div id="app" class="ds1-main">
+      <div id="app" class="ds1-main relative">
         <Header label="tinker wc" />
         <Eswat2Io />
         <DataSource actions={actions} state={state} />
