@@ -7,8 +7,7 @@ import { ActiveProps } from '../../utils';
 const help: string = 'click a button... ';
 
 const DataSource: FunctionalComponent<ActiveProps> = props => {
-  const { actions, state } = props;
-  const { count } = state;
+  const { actions, count } = props;
 
   return (
     <div class="mb-10px mt-3 flex items-center">

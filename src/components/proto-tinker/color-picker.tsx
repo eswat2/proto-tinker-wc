@@ -3,8 +3,7 @@ import { Radio } from './radio';
 import { colorKeys, colorFor, ActiveProps } from '../../utils';
 
 const ColorPicker: FunctionalComponent<ActiveProps> = props => {
-  const { actions, state } = props;
-  const { pick } = state;
+  const { actions, pick } = props;
 
   return (
     <div id="toolbar" class="flex flex-wrap" role="radiogroup">
@@ -17,7 +16,7 @@ const ColorPicker: FunctionalComponent<ActiveProps> = props => {
             aria-checked={selected ? 'true' : 'false'}
             role="radio"
             onClick={() => {
-              actions.updatePick(key);
+              actions.setPick(key);
             }}
           >
             <Radio hex={hex} selected={selected} label={key} />

@@ -9,6 +9,7 @@ const bag = {
   },
   store: data => {
     const json = JSON.stringify(data);
+    console.log(json);
 
     localStorage.setItem(KEY, json);
   },

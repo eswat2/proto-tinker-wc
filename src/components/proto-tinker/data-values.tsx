@@ -3,8 +3,7 @@ import { TwLabel } from './tw-label';
 import { PassiveProps } from '../../utils';
 
 const DataValues: FunctionalComponent<PassiveProps> = props => {
-  const { state } = props;
-  const { values, pick, count } = state;
+  const { values, pick, count } = props;
 
   return (
     <div class="flex">

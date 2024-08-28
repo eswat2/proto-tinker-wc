@@ -27,10 +27,10 @@ type ColorDict = {
 type CreateFn = (props: FunnelObj) => BarObj;
 
 type ActionsDef = {
-  initApp: () => void;
+  init: () => void;
   refresh: () => void;
   reset: () => void;
-  updatePick: (pick: string) => void;
+  setPick: (pick: string) => void;
 };
 
 type StateDef = {
@@ -41,11 +41,14 @@ type StateDef = {
 
 type ActiveProps = {
   actions: ActionsDef;
-  state: StateDef;
+  count?: number;
+  pick?: string;
 };
 
 type PassiveProps = {
-  state: StateDef;
+  count: number;
+  pick: string;
+  values: number[];
 };
 
 type IconProps = {
