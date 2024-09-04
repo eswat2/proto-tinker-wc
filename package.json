@@ -37,10 +37,10 @@
     "concurrently": "8.2.2",
     "cspell": "8.14.2",
     "eslint": "9.9.1",
-    "postcss": "8.4.44",
+    "postcss": "8.4.45",
     "prettier": "3.3.3",
     "prettier-plugin-tailwindcss": "0.6.6",
-    "proto-tailwindcss-clrs": "0.0.356",
+    "proto-tailwindcss-clrs": "0.0.357",
     "tailwindcss": "3.4.10",
     "typescript": "5.5.4"
   },
