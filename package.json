@@ -42,7 +42,7 @@
     "prettier-plugin-tailwindcss": "0.6.9",
     "proto-tailwindcss-clrs": "0.0.380",
     "tailwindcss": "3.4.15",
-    "typescript": "5.6.3"
+    "typescript": "5.7.2"
   },
   "license": "MIT"
 }
