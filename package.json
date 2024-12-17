@@ -40,8 +40,8 @@
     "postcss": "8.4.49",
     "prettier": "3.4.2",
     "prettier-plugin-tailwindcss": "0.6.9",
-    "proto-tailwindcss-clrs": "0.0.388",
-    "tailwindcss": "3.4.16",
+    "proto-tailwindcss-clrs": "0.0.389",
+    "tailwindcss": "3.4.17",
     "typescript": "5.7.2"
   },
   "license": "MIT"
