@@ -18,5 +18,23 @@ export const config: Config = {
       type: 'www',
       serviceWorker: null, // disable service workers
     },
+    {
+      type: 'dist',
+      copy: [
+        { src: 'public/tokens.css', dest: 'tokens.css' }
+      ]
+    },
+    {
+      type: 'www',
+      copy: [
+        { src: 'public/tokens.css', dest: 'tokens.css' }
+      ]
+    },
+    {
+      type: 'www',
+      copy: [
+        { src: 'public/utils.css', dest: 'utils.css' }
+      ]
+    },
   ],
 };
