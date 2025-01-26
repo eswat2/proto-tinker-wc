@@ -16,7 +16,7 @@
   ],
   "scripts": {
     "dev": "concurrently \"yarn:twx --watch\" \"yarn:start\"",
-    "twx": "sh ./.generate",
+    "twx": "sh .generate",
     "build": "yarn twx; yarn format; stencil build --docs",
     "start": "stencil build --dev --watch --serve",
     "test": "echo --skip",
