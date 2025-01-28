@@ -35,12 +35,12 @@
   "devDependencies": {
     "autoprefixer": "10.4.20",
     "concurrently": "9.1.2",
-    "cspell": "8.17.2",
+    "cspell": "8.17.3",
     "eslint": "9.19.0",
     "postcss": "8.5.1",
     "prettier": "3.4.2",
     "prettier-plugin-tailwindcss": "0.6.11",
-    "proto-tailwindcss-clrs": "0.0.398",
+    "proto-tailwindcss-clrs": "0.0.399",
     "tailwindcss": "4.0.0",
     "typescript": "5.7.3",
     "workbox-build": "7.3.0"
