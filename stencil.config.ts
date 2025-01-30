@@ -21,19 +21,16 @@ export const config: Config = {
     {
       type: 'dist',
       copy: [
-        { src: 'styles/tokens.css', dest: 'tokens.css' }
+        { src: 'styles/tokens.css', dest: 'tokens.css' },
+        { src: 'styles/props.css', dest: 'props.css' },
       ]
     },
     {
       type: 'www',
       copy: [
-        { src: 'styles/tokens.css', dest: 'tokens.css' }
-      ]
-    },
-    {
-      type: 'www',
-      copy: [
-        { src: 'styles/utils.css', dest: 'utils.css' }
+        { src: 'styles/tokens.css', dest: 'tokens.css' },
+        { src: 'styles/utils.css', dest: 'utils.css' },
+        { src: 'styles/props.css', dest: 'props.css' },
       ]
     },
   ],
