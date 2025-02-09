@@ -30,6 +30,7 @@ export const config: Config = {
       copy: [
         { src: 'styles/tokens.css', dest: 'tokens.css' },
         { src: 'styles/utils.css', dest: 'utils.css' },
+        { src: 'styles/shadow.css', dest: 'shadow.css' },
         { src: 'styles/props.css', dest: 'props.css' },
       ]
     },
