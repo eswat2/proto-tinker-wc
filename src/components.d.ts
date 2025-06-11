@@ -7,6 +7,9 @@
 import { HTMLStencilElement, JSXBase } from "@stencil/core/internal";
 export namespace Components {
     interface ProtoTinker {
+        /**
+          * @default 'proto-tinker'
+         */
         "tag": string;
     }
 }
@@ -23,6 +26,9 @@ declare global {
 }
 declare namespace LocalJSX {
     interface ProtoTinker {
+        /**
+          * @default 'proto-tinker'
+         */
         "tag"?: string;
     }
     interface IntrinsicElements {

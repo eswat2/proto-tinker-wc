@@ -28,20 +28,20 @@
     "format": "prettier --write src"
   },
   "dependencies": {
-    "@stencil/core": "4.31.0",
+    "@stencil/core": "4.33.1",
     "@stencil/store": "2.1.3",
     "between.js": "0.1.2-fix.2"
   },
   "devDependencies": {
     "autoprefixer": "10.4.21",
     "concurrently": "9.1.2",
-    "cspell": "9.0.1",
-    "eslint": "9.27.0",
-    "postcss": "8.5.3",
+    "cspell": "9.0.2",
+    "eslint": "9.28.0",
+    "postcss": "8.5.4",
     "prettier": "3.5.3",
-    "prettier-plugin-tailwindcss": "0.6.11",
-    "proto-tailwindcss-clrs": "0.0.418",
-    "tailwindcss": "4.1.7",
+    "prettier-plugin-tailwindcss": "0.6.12",
+    "proto-tailwindcss-clrs": "0.0.419",
+    "tailwindcss": "4.1.9",
     "typescript": "5.8.3",
     "workbox-build": "7.3.0"
   },
