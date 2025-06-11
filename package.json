@@ -37,10 +37,10 @@
     "concurrently": "9.1.2",
     "cspell": "9.0.2",
     "eslint": "9.28.0",
-    "postcss": "8.5.4",
+    "postcss": "8.5.5",
     "prettier": "3.5.3",
     "prettier-plugin-tailwindcss": "0.6.12",
-    "proto-tailwindcss-clrs": "0.0.419",
+    "proto-tailwindcss-clrs": "0.0.420",
     "tailwindcss": "4.1.9",
     "typescript": "5.8.3",
     "workbox-build": "7.3.0"
