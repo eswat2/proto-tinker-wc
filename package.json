@@ -1,6 +1,6 @@
 {
   "name": "proto-tinker-wc",
-  "version": "0.1.50",
+  "version": "0.1.51",
   "description": "prototype - simple demo built from Stencil & Tailwind",
   "main": "dist/index.cjs.js",
   "module": "dist/index.js",
