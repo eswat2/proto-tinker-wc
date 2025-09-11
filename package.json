@@ -29,8 +29,7 @@
   },
   "dependencies": {
     "@stencil/core": "4.36.3",
-    "@stencil/store": "2.2.0",
-    "between.js": "0.1.2-fix.2"
+    "@stencil/store": "2.2.0"
   },
   "devDependencies": {
     "autoprefixer": "10.4.21",
