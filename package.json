@@ -32,7 +32,7 @@
     "@stencil/store": "2.2.2"
   },
   "devDependencies": {
-    "autoprefixer": "10.4.22",
+    "autoprefixer": "10.4.23",
     "concurrently": "9.2.1",
     "cspell": "9.4.0",
     "eslint": "9.39.2",
