@@ -31,15 +31,20 @@ declare namespace LocalJSX {
          */
         "tag"?: string;
     }
+
+    interface ProtoTinkerAttributes {
+        "tag": string;
+    }
+
     interface IntrinsicElements {
-        "proto-tinker": ProtoTinker;
+        "proto-tinker": Omit<ProtoTinker, keyof ProtoTinkerAttributes> & { [K in keyof ProtoTinker & keyof ProtoTinkerAttributes]?: ProtoTinker[K] } & { [K in keyof ProtoTinker & keyof ProtoTinkerAttributes as `attr:${K}`]?: ProtoTinkerAttributes[K] } & { [K in keyof ProtoTinker & keyof ProtoTinkerAttributes as `prop:${K}`]?: ProtoTinker[K] };
     }
 }
 export { LocalJSX as JSX };
 declare module "@stencil/core" {
     export namespace JSX {
         interface IntrinsicElements {
-            "proto-tinker": LocalJSX.ProtoTinker & JSXBase.HTMLAttributes<HTMLProtoTinkerElement>;
+            "proto-tinker": LocalJSX.IntrinsicElements["proto-tinker"] & JSXBase.HTMLAttributes<HTMLProtoTinkerElement>;
         }
     }
 }
