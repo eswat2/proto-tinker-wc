@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@stencil/core':
-        specifier: 4.42.0
-        version: 4.42.0
+        specifier: 4.42.1
+        version: 4.42.1
       '@stencil/store':
         specifier: 2.2.2
-        version: 2.2.2(@stencil/core@4.42.0)
+        version: 2.2.2(@stencil/core@4.42.1)
     devDependencies:
       autoprefixer:
         specifier: 10.4.24
@@ -973,8 +973,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@stencil/core@4.42.0':
-    resolution: {integrity: sha512-1mMkQ3+5jE343detvyFK+U3tJM8Qp8aaaOnGMo815BKMnFShUpioF9ziaX0dJ+goDKWIWbGZ2438dHIGsvE5ug==}
+  '@stencil/core@4.42.1':
+    resolution: {integrity: sha512-KsjkaWnJmjMcsLjTK77FJV/8OK9qZ4f83/sXzYsjkUF21pqpNrDUkY6/+rnVFWnVfoYMpNdjWfGyJem4VlcMXw==}
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
 
@@ -3533,7 +3533,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.34.9':
     optional: true
 
-  '@stencil/core@4.42.0':
+  '@stencil/core@4.42.1':
     optionalDependencies:
       '@rollup/rollup-darwin-arm64': 4.34.9
       '@rollup/rollup-darwin-x64': 4.34.9
@@ -3544,9 +3544,9 @@ snapshots:
       '@rollup/rollup-win32-arm64-msvc': 4.34.9
       '@rollup/rollup-win32-x64-msvc': 4.34.9
 
-  '@stencil/store@2.2.2(@stencil/core@4.42.0)':
+  '@stencil/store@2.2.2(@stencil/core@4.42.1)':
     dependencies:
-      '@stencil/core': 4.42.0
+      '@stencil/core': 4.42.1
 
   '@surma/rollup-plugin-off-main-thread@2.2.3':
     dependencies:
