@@ -1,3 +1,7 @@
+// bag -- utility to work with localStorage...
+//
+// <meta name="mcp:localStorage-keys" content="proto-tinker-wc::app-data" />
+//
 const KEY = 'proto-tinker-wc::app-data';
 
 // localStorage implementation... [ json ]
