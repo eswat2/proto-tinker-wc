@@ -43,7 +43,7 @@
     "prettier": "3.8.1",
     "prettier-plugin-tailwindcss": "0.7.2",
     "proto-tailwindcss-clrs": "0.0.469",
-    "tailwindcss": "4.1.18",
+    "tailwindcss": "4.2.0",
     "typescript": "5.9.3",
     "workbox-build": "7.4.0",
     "yoctocolors": "2.1.2"
