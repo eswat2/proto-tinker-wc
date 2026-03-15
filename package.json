@@ -34,7 +34,7 @@
   },
   "devDependencies": {
     "autoprefixer": "10.4.27",
-    "bumpp": "10.4.1",
+    "bumpp": "11.0.0",
     "concurrently": "9.2.1",
     "cspell": "9.7.0",
     "eslint": "10.0.3",
@@ -42,7 +42,7 @@
     "postcss": "8.5.8",
     "prettier": "3.8.1",
     "prettier-plugin-tailwindcss": "0.7.2",
-    "proto-tailwindcss-clrs": "0.0.474",
+    "proto-tailwindcss-clrs": "0.0.477",
     "tailwindcss": "4.2.1",
     "typescript": "5.9.3",
     "workbox-build": "7.4.0",
