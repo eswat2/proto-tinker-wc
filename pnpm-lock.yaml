@@ -19,8 +19,8 @@ importers:
         specifier: 10.4.27
         version: 10.4.27(postcss@8.5.8)
       bumpp:
-        specifier: 11.0.0
-        version: 11.0.0
+        specifier: 11.0.1
+        version: 11.0.1
       concurrently:
         specifier: 9.2.1
         version: 9.2.1
@@ -1098,8 +1098,8 @@ packages:
   buffer-from@1.1.2:
     resolution: {integrity: sha512-E+XQCRwSbaaiChtv6k6Dwgc+bx+Bs6vuKJHHl5kox/BaKbhiXzqQOwK4cO22yElGp2OCmjwVhT3HmxgyPGnJfQ==}
 
-  bumpp@11.0.0:
-    resolution: {integrity: sha512-rxW8H4VIB+KvnNDZ87y4tyktHydN4wzmXHYJ8CfzhWl8yKd6yuQMPcV78Hrz47udmBssjrN5wQo+JLmyU94gaA==}
+  bumpp@11.0.1:
+    resolution: {integrity: sha512-X0ti27I/ewsx/u0EJSyl0IZWWOE95q+wIpAG/60kc5gqMNR4a23YJdd3lL7JsBN11TgLbCM4KpfGMuFfdigb4g==}
     engines: {node: '>=20.19.0'}
     hasBin: true
 
@@ -2171,8 +2171,8 @@ packages:
     resolution: {integrity: sha512-G13vtMYPT/J8A4X2SjdtBTphZlrp1gKv6hZiOjw14RCWg6GbHuQBGtjlx75xLbYV/wEc0D7G5K4rxKP/cXk8Bw==}
     engines: {node: '>=10'}
 
-  terser@5.46.0:
-    resolution: {integrity: sha512-jTwoImyr/QbOWFFso3YoU3ik0jBBDJ6JTOQiy/J2YxVJdZCc+5u7skhNwiOR3FQIygFqVUPHl7qbbxtjW2K3Qg==}
+  terser@5.46.1:
+    resolution: {integrity: sha512-vzCjQO/rgUuK9sf8VJZvjqiqiHFaZLnOiimmUuOKODxWL8mm/xua7viT7aqX7dgPY60otQjUotzFMmCB4VdmqQ==}
     engines: {node: '>=10'}
     hasBin: true
 
@@ -3381,7 +3381,7 @@ snapshots:
     dependencies:
       serialize-javascript: 6.0.2
       smob: 1.6.1
-      terser: 5.46.0
+      terser: 5.46.1
     optionalDependencies:
       rollup: 2.80.0
 
@@ -3572,7 +3572,7 @@ snapshots:
 
   buffer-from@1.1.2: {}
 
-  bumpp@11.0.0:
+  bumpp@11.0.1:
     dependencies:
       args-tokenizer: 0.3.0
       cac: 7.0.0
@@ -4707,7 +4707,7 @@ snapshots:
       type-fest: 0.16.0
       unique-string: 2.0.0
 
-  terser@5.46.0:
+  terser@5.46.1:
     dependencies:
       '@jridgewell/source-map': 0.3.11
       acorn: 8.16.0
