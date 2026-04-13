@@ -16,8 +16,8 @@ importers:
         version: 2.2.2(@stencil/core@4.43.4)
     devDependencies:
       autoprefixer:
-        specifier: 10.4.27
-        version: 10.4.27(postcss@8.5.9)
+        specifier: 10.5.0
+        version: 10.5.0(postcss@8.5.9)
       bumpp:
         specifier: 11.0.1
         version: 11.0.1
@@ -43,8 +43,8 @@ importers:
         specifier: 0.7.2
         version: 0.7.2(prettier@3.8.2)
       proto-tailwindcss-clrs:
-        specifier: 0.0.483
-        version: 0.0.483
+        specifier: 0.0.484
+        version: 0.0.484
       tailwindcss:
         specifier: 4.2.2
         version: 4.2.2
@@ -1045,8 +1045,8 @@ packages:
     resolution: {integrity: sha512-+q/t7Ekv1EDY2l6Gda6LLiX14rU9TV20Wa3ofeQmwPFZbOMo9DXrLbOjFaaclkXKWidIaopwAObQDqwWtGUjqg==}
     engines: {node: '>= 4.0.0'}
 
-  autoprefixer@10.4.27:
-    resolution: {integrity: sha512-NP9APE+tO+LuJGn7/9+cohklunJsXWiaWEfV3si4Gi/XHDwVNgkwr1J3RQYFIvPy76GmJ9/bW8vyoU1LcxwKHA==}
+  autoprefixer@10.5.0:
+    resolution: {integrity: sha512-FMhOoZV4+qR6aTUALKX2rEqGG+oyATvwBt9IIzVR5rMa2HRWPkxf+P+PAJLD1I/H5/II+HuZcBJYEFBpq39ong==}
     engines: {node: ^10 || ^12 || >=14}
     hasBin: true
     peerDependencies:
@@ -1925,8 +1925,8 @@ packages:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
     engines: {node: '>=6'}
 
-  proto-tailwindcss-clrs@0.0.483:
-    resolution: {integrity: sha512-loywa11dO+O7HYVnYrvVUDI84gkpq+WErP1hHY2J64rtlKUBWQz+0pPHfXvdGBotCx0zOzDGONOU9jZTBUAttQ==}
+  proto-tailwindcss-clrs@0.0.484:
+    resolution: {integrity: sha512-MEACrEiNVGs5CR8OQvEAUrkyw9u39Xqs2EZLt5UadNp2rov9gOIfCrWz6UX1SdRWnbKL6SDWafECzLO4jx2PTQ==}
     engines: {node: '>=18'}
 
   punycode@2.3.1:
@@ -3487,7 +3487,7 @@ snapshots:
 
   at-least-node@1.0.0: {}
 
-  autoprefixer@10.4.27(postcss@8.5.9):
+  autoprefixer@10.5.0(postcss@8.5.9):
     dependencies:
       browserslist: 4.28.2
       caniuse-lite: 1.0.30001787
@@ -4398,7 +4398,7 @@ snapshots:
 
   pretty-bytes@5.6.0: {}
 
-  proto-tailwindcss-clrs@0.0.483: {}
+  proto-tailwindcss-clrs@0.0.484: {}
 
   punycode@2.3.1: {}
 
