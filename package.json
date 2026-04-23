@@ -41,7 +41,7 @@
     "only-allow": "1.2.2",
     "postcss": "8.5.10",
     "prettier": "3.8.3",
-    "prettier-plugin-tailwindcss": "0.7.2",
+    "prettier-plugin-tailwindcss": "0.7.3",
     "proto-tailwindcss-clrs": "0.0.486",
     "tailwindcss": "4.2.4",
     "typescript": "5.9.3",
