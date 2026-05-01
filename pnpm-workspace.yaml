@@ -1,2 +1,4 @@
+allowBuilds:
+  proto-tailwindcss-clrs: true
 onlyBuiltDependencies:
   - proto-tailwindcss-clrs
