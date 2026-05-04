@@ -51,7 +51,7 @@
     "proto-tailwindcss-clrs": "0.0.489",
     "tailwindcss": "4.2.4",
     "typescript": "5.9.3",
-    "workbox-build": "7.4.0",
+    "workbox-build": "7.4.1",
     "yoctocolors": "2.1.2"
   },
   "license": "MIT"
