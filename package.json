@@ -14,12 +14,6 @@
     "dist/",
     "loader/"
   ],
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "esbuild",
-      "proto-tailwindcss-clrs"
-    ]
-  },
   "scripts": {
     "bump": "bumpp patch --commit --tag --push --yes",
     "release": "pnpm bump && pnpm build && pnpm publish",
