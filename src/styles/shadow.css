@@ -56,6 +56,9 @@
   .ml-auto {
     margin-left: auto;
   }
+  .contents {
+    display: contents;
+  }
   .flex {
     display: flex;
   }
