@@ -42,7 +42,7 @@
     "postcss": "8.5.15",
     "prettier": "3.8.4",
     "prettier-plugin-tailwindcss": "0.8.0",
-    "proto-tailwindcss-clrs": "0.0.505",
+    "proto-tailwindcss-clrs": "0.0.507",
     "tailwindcss": "4.3.1",
     "typescript": "5.9.3",
     "workbox-build": "7.4.1",
