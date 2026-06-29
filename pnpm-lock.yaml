@@ -43,11 +43,11 @@ importers:
         specifier: 0.8.0
         version: 0.8.0(prettier@3.9.3)
       proto-tailwindcss-clrs:
-        specifier: 0.0.510
-        version: 0.0.510
+        specifier: 0.0.511
+        version: 0.0.511
       tailwindcss:
-        specifier: 4.3.1
-        version: 4.3.1
+        specifier: 4.3.2
+        version: 4.3.2
       typescript:
         specifier: 5.9.3
         version: 5.9.3
@@ -2055,8 +2055,8 @@ packages:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
     engines: {node: '>=6'}
 
-  proto-tailwindcss-clrs@0.0.510:
-    resolution: {integrity: sha512-1clboa7lGJ0MtLCEjxP6+EaWgDm3+NLevmQxgyYxjh6ktSt5VkFq0YQ4F4fUZJqvONE37BUbmDaqM2JSLlz+ow==}
+  proto-tailwindcss-clrs@0.0.511:
+    resolution: {integrity: sha512-PcWswCtUgBj/G/DHpCal6FX8gxShF9RiAaQ0qT/7+k7tyv0XcOSJk/8LRRgDGVh3diJsRF2RkZnOZRx8lkhlTA==}
     engines: {node: '>=18'}
 
   punycode@2.3.1:
@@ -2250,8 +2250,8 @@ packages:
     resolution: {integrity: sha512-ot0WnXS9fgdkgIcePe6RHNk1WA8+muPa6cSjeR3V8K27q9BB1rTE3R1p7Hv0z1ZyAc8s6Vvv8DIyWf681MAt0w==}
     engines: {node: '>= 0.4'}
 
-  tailwindcss@4.3.1:
-    resolution: {integrity: sha512-hk+TB1m+K8CYNrP6rjQaq/Y+4Zylwpa87mLYBKCunwnnQ9p+fHb7kmSfGqyEJoxF/O6CDyABWVFEafNSYKll+Q==}
+  tailwindcss@4.3.2:
+    resolution: {integrity: sha512-WtctNNSH8A9jlMIqxzuYumOHU5uGZyRv0Q5svQl+oEPy5w84YpBxdb7MdqyiSPQge5jTJ6zFQLq0PFygdccSBA==}
 
   temp-dir@2.0.0:
     resolution: {integrity: sha512-aoBAniQmmwtcKp/7BzsH8Cxzv8OL736p7v1ihGb5e9DJ9kTwGWHrQrVB5+lfVDzfGrdRzXch+ig7LHaY1JTOrg==}
@@ -4589,7 +4589,7 @@ snapshots:
 
   pretty-bytes@5.6.0: {}
 
-  proto-tailwindcss-clrs@0.0.510: {}
+  proto-tailwindcss-clrs@0.0.511: {}
 
   punycode@2.3.1: {}
 
@@ -4851,7 +4851,7 @@ snapshots:
 
   supports-preserve-symlinks-flag@1.0.0: {}
 
-  tailwindcss@4.3.1: {}
+  tailwindcss@4.3.2: {}
 
   temp-dir@2.0.0: {}
 
