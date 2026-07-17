@@ -43,8 +43,8 @@ importers:
         specifier: 0.8.1
         version: 0.8.1(prettier@3.9.5)
       proto-tailwindcss-clrs:
-        specifier: 0.0.517
-        version: 0.0.517
+        specifier: 0.0.518
+        version: 0.0.518
       tailwindcss:
         specifier: 4.3.3
         version: 4.3.3
@@ -1261,9 +1261,6 @@ packages:
     resolution: {integrity: sha512-+ys997U96po4Kx/ABpBCqhA9EuxJaQWDQg7295H4hBphv3IZg0boBKuwYpt4YXp6MZ5AmZQnU/tyMTlRpaSejg==}
     engines: {node: '>= 0.4'}
 
-  caniuse-lite@1.0.30001805:
-    resolution: {integrity: sha512-52noaS3DubycKSXaU30TwPGIp+POyQSUVa5jBEq3vkRkY0kjyb3LQgvhU6WGyCcyXqVLWO0Cw0Q6BSdD0kUfVA==}
-
   caniuse-lite@1.0.30001806:
     resolution: {integrity: sha512-72Cuvd95zbSYPKq6Fhg8eDJRlzgWDf7/mtoZv6Qe/DYNCEBdNxoA3+rZAU2ZhGCpZlns3EssFavaZomckT5Uuw==}
 
@@ -2058,8 +2055,8 @@ packages:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
     engines: {node: '>=6'}
 
-  proto-tailwindcss-clrs@0.0.517:
-    resolution: {integrity: sha512-JYKXWa4eeF1iCnFgj6J1y7pukyH7qO25FvsjB31JYRcWhhd5j7aNggu170WCq+X8CGO9B0y5NoCmQ/p2grqiAA==}
+  proto-tailwindcss-clrs@0.0.518:
+    resolution: {integrity: sha512-p/TKiyQyHD56fsEFOVAfCxJltmK2LgaqvBcBDNXz30hZzLammSp6ydUuSOkRJBHdZpA1aQIfZCzqw44MAGUZ/g==}
     engines: {node: '>=18'}
 
   punycode@2.3.1:
@@ -3735,7 +3732,7 @@ snapshots:
   browserslist@4.28.6:
     dependencies:
       baseline-browser-mapping: 2.10.43
-      caniuse-lite: 1.0.30001805
+      caniuse-lite: 1.0.30001806
       electron-to-chromium: 1.5.392
       node-releases: 2.0.51
       update-browserslist-db: 1.2.3(browserslist@4.28.6)
@@ -3772,8 +3769,6 @@ snapshots:
     dependencies:
       call-bind-apply-helpers: 1.0.2
       get-intrinsic: 1.3.0
-
-  caniuse-lite@1.0.30001805: {}
 
   caniuse-lite@1.0.30001806: {}
 
@@ -4594,7 +4589,7 @@ snapshots:
 
   pretty-bytes@5.6.0: {}
 
-  proto-tailwindcss-clrs@0.0.517: {}
+  proto-tailwindcss-clrs@0.0.518: {}
 
   punycode@2.3.1: {}
 
