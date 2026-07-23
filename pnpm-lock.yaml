@@ -43,8 +43,8 @@ importers:
         specifier: 0.8.1
         version: 0.8.1(prettier@3.9.6)
       proto-tailwindcss-clrs:
-        specifier: 0.0.523
-        version: 0.0.523
+        specifier: 0.0.524
+        version: 0.0.524
       tailwindcss:
         specifier: 4.3.3
         version: 4.3.3
@@ -801,8 +801,8 @@ packages:
     resolution: {integrity: sha512-abYYgI29wJhWIfWTYrYuzRYDcHQUQ1N5ylnhxYn1NJnIQMqUWGLbDmt12JABtZ+R6h6UNatQrS7rhP86etvJyQ==}
     engines: {node: '>=22.18.0'}
 
-  '@eslint-community/eslint-utils@4.9.1':
-    resolution: {integrity: sha512-phrYmNiYppR7znFEdqgfWHXR6NCkZEK7hwWDHZUjit/2/U0r6XvkDl0SYnoM51Hq7FhCGdLDT6zxCCOY1hexsQ==}
+  '@eslint-community/eslint-utils@4.10.1':
+    resolution: {integrity: sha512-cuadcxVFE8sDK6iWJbs8Sn0av2Nrh2QSGQhVlBW9AaAHqHwjWsZHT8LJ4hFGPh7ASBV2deFdM7H/DPjulmh8rg==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
     peerDependencies:
       eslint: ^6.0.0 || ^7.0.0 || >=8.0.0
@@ -1220,8 +1220,8 @@ packages:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
     engines: {node: 18 || 20 || >=22}
 
-  baseline-browser-mapping@2.11.0:
-    resolution: {integrity: sha512-oCu2wfipvX3AePSgmOuKkIywOu+8n9psz7hXYmk56ghpu3+7KzNIBopaOs4c9BrtdnTtW30unG9GTfHo7EwERQ==}
+  baseline-browser-mapping@2.11.1:
+    resolution: {integrity: sha512-HYXq73DDpCtNzOmrFsm9eSwCvWCql0RzqjpDzXN9EadiLJ4DNat0nsZ/Bzmy+Ud12mb4/zKDY0cQ805ZzN+i0A==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -1539,8 +1539,8 @@ packages:
     resolution: {integrity: sha512-f7ccFPK3SXFHpx15UIGyRJ/FJQctuKZ0zVuN3frBo4HnK3cay9VEW0R6yPYFHC0AgqhukPzKjq22t5DmAyqGyw==}
     engines: {node: '>=16'}
 
-  flatted@3.4.2:
-    resolution: {integrity: sha512-PjDse7RzhcPkIJwy5t7KPWQSZ9cAbzQXcafsetQoD7sOJRQlGikNbx7yZp2OotDnJyrDcbyRq3Ttb18iYOqkxA==}
+  flatted@3.4.3:
+    resolution: {integrity: sha512-/zipXxyO6rGvuNGDiULY9MvEGSkb2gaG4GGH4ygMi0ZZzyMHdUZBmntJmx5x1G2VuPytCwGN4xsJP6cw+sK+vQ==}
 
   for-each@0.3.5:
     resolution: {integrity: sha512-dKx12eRCVIzqCxFGplyFKJMPvLEWgmNtUrpTiJIR5u97zEhRG8ySrtboPHZXx7daLxQVrl643cTzbab2tkQjxg==}
@@ -2052,8 +2052,8 @@ packages:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
     engines: {node: '>=6'}
 
-  proto-tailwindcss-clrs@0.0.523:
-    resolution: {integrity: sha512-OkOhlsRZ/Ptilt0D56Lwdrwdc8K96Np5t612HlTlL1uxLYK+K9X7HOJSYUMlpC/1/e3Zr/juRcddCCDXe7mNGg==}
+  proto-tailwindcss-clrs@0.0.524:
+    resolution: {integrity: sha512-4eTplSfJADB6hLB2Zf//LdJ7HgNnkV0vrxZKiVKNGCrSh3daSapaApDnGUF2gj2r06ydUAnU0DaWVSq+IPuc8Q==}
     engines: {node: '>=18'}
 
   punycode@2.3.1:
@@ -3370,7 +3370,7 @@ snapshots:
 
   '@cspell/url@10.0.1': {}
 
-  '@eslint-community/eslint-utils@4.9.1(eslint@10.7.0(jiti@2.7.0)(supports-color@10.2.2))':
+  '@eslint-community/eslint-utils@4.10.1(eslint@10.7.0(jiti@2.7.0)(supports-color@10.2.2))':
     dependencies:
       eslint: 10.7.0(jiti@2.7.0)(supports-color@10.2.2)
       eslint-visitor-keys: 3.4.3
@@ -3710,7 +3710,7 @@ snapshots:
 
   balanced-match@4.0.4: {}
 
-  baseline-browser-mapping@2.11.0: {}
+  baseline-browser-mapping@2.11.1: {}
 
   brace-expansion@2.1.2:
     dependencies:
@@ -3722,7 +3722,7 @@ snapshots:
 
   browserslist@4.28.7:
     dependencies:
-      baseline-browser-mapping: 2.11.0
+      baseline-browser-mapping: 2.11.1
       caniuse-lite: 1.0.30001806
       electron-to-chromium: 1.5.395
       node-releases: 2.0.51
@@ -3895,7 +3895,7 @@ snapshots:
       cspell-io: 10.0.1
       cspell-lib: 10.0.1
       fast-json-stable-stringify: 2.1.0
-      flatted: 3.4.2
+      flatted: 3.4.3
       semver: 7.8.5
       tinyglobby: 0.2.17
 
@@ -4064,7 +4064,7 @@ snapshots:
 
   eslint@10.7.0(jiti@2.7.0)(supports-color@10.2.2):
     dependencies:
-      '@eslint-community/eslint-utils': 4.9.1(eslint@10.7.0(jiti@2.7.0)(supports-color@10.2.2))
+      '@eslint-community/eslint-utils': 4.10.1(eslint@10.7.0(jiti@2.7.0)(supports-color@10.2.2))
       '@eslint-community/regexpp': 4.12.2
       '@eslint/config-array': 0.23.5(supports-color@10.2.2)
       '@eslint/config-helpers': 0.6.0
@@ -4152,10 +4152,10 @@ snapshots:
 
   flat-cache@4.0.1:
     dependencies:
-      flatted: 3.4.2
+      flatted: 3.4.3
       keyv: 4.5.4
 
-  flatted@3.4.2: {}
+  flatted@3.4.3: {}
 
   for-each@0.3.5:
     dependencies:
@@ -4581,7 +4581,7 @@ snapshots:
 
   pretty-bytes@5.6.0: {}
 
-  proto-tailwindcss-clrs@0.0.523: {}
+  proto-tailwindcss-clrs@0.0.524: {}
 
   punycode@2.3.1: {}
 
