@@ -30,19 +30,19 @@
   },
   "dependencies": {
     "@stencil/core": "4.43.5",
-    "@stencil/store": "2.2.2"
+    "@stencil/store": "2.2.3"
   },
   "devDependencies": {
     "autoprefixer": "10.5.4",
-    "bumpp": "12.1.1",
+    "bumpp": "12.2.0",
     "concurrently": "10.0.4",
     "cspell": "10.0.1",
     "eslint": "10.8.0",
     "only-allow": "1.2.2",
-    "postcss": "8.5.25",
+    "postcss": "8.5.26",
     "prettier": "3.9.6",
     "prettier-plugin-tailwindcss": "0.8.1",
-    "proto-tailwindcss-clrs": "0.0.531",
+    "proto-tailwindcss-clrs": "0.0.532",
     "tailwindcss": "4.3.3",
     "typescript": "5.9.3",
     "workbox-build": "7.4.1",
