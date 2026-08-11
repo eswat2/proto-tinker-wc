@@ -29,8 +29,8 @@
     "format": "prettier --write src"
   },
   "dependencies": {
-    "@stencil/core": "4.43.5",
-    "@stencil/store": "2.2.3"
+    "@stencil/core": "4.44.0",
+    "@stencil/store": "2.2.4"
   },
   "devDependencies": {
     "autoprefixer": "10.5.4",
