@@ -29,7 +29,7 @@
     "format": "prettier --write src"
   },
   "dependencies": {
-    "@stencil/core": "4.44.0",
+    "@stencil/core": "4.44.1",
     "@stencil/store": "2.2.4"
   },
   "devDependencies": {
@@ -37,7 +37,7 @@
     "bumpp": "12.2.1",
     "concurrently": "10.0.5",
     "cspell": "10.0.1",
-    "eslint": "10.8.1",
+    "eslint": "10.9.0",
     "only-allow": "1.2.2",
     "postcss": "8.5.26",
     "prettier": "3.9.6",

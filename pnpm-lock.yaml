@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@stencil/core':
-        specifier: 4.44.0
-        version: 4.44.0
+        specifier: 4.44.1
+        version: 4.44.1
       '@stencil/store':
         specifier: 2.2.4
-        version: 2.2.4(@stencil/core@4.44.0)
+        version: 2.2.4(@stencil/core@4.44.1)
     devDependencies:
       autoprefixer:
         specifier: 10.5.4
@@ -28,8 +28,8 @@ importers:
         specifier: 10.0.1
         version: 10.0.1
       eslint:
-        specifier: 10.8.1
-        version: 10.8.1(jiti@2.7.0)(supports-color@10.2.2)
+        specifier: 10.9.0
+        version: 10.9.0(jiti@2.7.0)(supports-color@10.2.2)
       only-allow:
         specifier: 1.2.2
         version: 1.2.2
@@ -1115,8 +1115,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@stencil/core@4.44.0':
-    resolution: {integrity: sha512-A3kArg+80t9zJdul7FLUcxcjqvYrF76nDavfm2L8R7hGKWPbTTGM/tkOSf7MJqMd1ED0ztYoa9X90UlEXY3nLA==}
+  '@stencil/core@4.44.1':
+    resolution: {integrity: sha512-OaFtMODcDcKswPbJC6An6xAcNmeuBggxyUTVKSX1UY7bPtWgIR5mGy1jZ6JkyFGgIxZCj/9wp2r97KBQow9wOQ==}
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
 
@@ -1227,8 +1227,8 @@ packages:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
     engines: {node: 18 || 20 || >=22}
 
-  baseline-browser-mapping@2.11.15:
-    resolution: {integrity: sha512-FwMjJJ7HnyZpWe+oWxegG0fezZyBZUagI5LZEoO3GCbtbKNwRfMH9Ue5d5v01PNePBy1QSfPSDTTeVL0Hb9EzA==}
+  baseline-browser-mapping@2.11.16:
+    resolution: {integrity: sha512-H/bNPUFHewJHyCTdjn1n3Pit5+2GmWT6mmeHImPX+8MA9NA6b67jO4gYmi4jTbCJb2otq34KMZnovndDPqJwhQ==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -1465,8 +1465,8 @@ packages:
     resolution: {integrity: sha512-tD40eHxA35h0PEIZNeIjkHoDR4YjjJp34biM0mDvplBe//mB+IHCqHDGV7pxF+7MklTvighcCPPZC7ynWyjdTA==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
 
-  eslint@10.8.1:
-    resolution: {integrity: sha512-wqA7W2jbsC/BnV9Iv1UZpKVFkO1AdNoSmYW8NWG4HNOBbkAMvIqDZ27pI2f07dqn583NcIC44ckjAcOXDL1QbQ==}
+  eslint@10.9.0:
+    resolution: {integrity: sha512-5KeEOJZBfEVA47boFiBsf+6MmmJpffM7qEBg4pLla2e4nlKgdKlqCW0oSLOGsT8Wl5uCGJptLV1bkaiShj90Gw==}
     engines: {node: ^20.19.0 || ^22.13.0 || >=24}
     hasBin: true
     peerDependencies:
@@ -3378,9 +3378,9 @@ snapshots:
 
   '@cspell/url@10.0.1': {}
 
-  '@eslint-community/eslint-utils@4.10.1(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))':
+  '@eslint-community/eslint-utils@4.10.1(eslint@10.9.0(jiti@2.7.0)(supports-color@10.2.2))':
     dependencies:
-      eslint: 10.8.1(jiti@2.7.0)(supports-color@10.2.2)
+      eslint: 10.9.0(jiti@2.7.0)(supports-color@10.2.2)
       eslint-visitor-keys: 3.4.3
 
   '@eslint-community/regexpp@4.12.2': {}
@@ -3599,7 +3599,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.62.4':
     optional: true
 
-  '@stencil/core@4.44.0':
+  '@stencil/core@4.44.1':
     optionalDependencies:
       '@rollup/rollup-darwin-arm64': 4.44.0
       '@rollup/rollup-darwin-x64': 4.44.0
@@ -3610,9 +3610,9 @@ snapshots:
       '@rollup/rollup-win32-arm64-msvc': 4.44.0
       '@rollup/rollup-win32-x64-msvc': 4.44.0
 
-  '@stencil/store@2.2.4(@stencil/core@4.44.0)':
+  '@stencil/store@2.2.4(@stencil/core@4.44.1)':
     dependencies:
-      '@stencil/core': 4.44.0
+      '@stencil/core': 4.44.1
 
   '@trickfilm400/rollup-plugin-off-main-thread@3.0.0-pre1':
     dependencies:
@@ -3721,7 +3721,7 @@ snapshots:
 
   balanced-match@4.0.4: {}
 
-  baseline-browser-mapping@2.11.15: {}
+  baseline-browser-mapping@2.11.16: {}
 
   brace-expansion@2.1.4:
     dependencies:
@@ -3733,7 +3733,7 @@ snapshots:
 
   browserslist@4.28.8:
     dependencies:
-      baseline-browser-mapping: 2.11.15
+      baseline-browser-mapping: 2.11.16
       caniuse-lite: 1.0.30001809
       electron-to-chromium: 1.5.411
       node-releases: 2.0.53
@@ -4073,9 +4073,9 @@ snapshots:
 
   eslint-visitor-keys@5.0.1: {}
 
-  eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2):
+  eslint@10.9.0(jiti@2.7.0)(supports-color@10.2.2):
     dependencies:
-      '@eslint-community/eslint-utils': 4.10.1(eslint@10.8.1(jiti@2.7.0)(supports-color@10.2.2))
+      '@eslint-community/eslint-utils': 4.10.1(eslint@10.9.0(jiti@2.7.0)(supports-color@10.2.2))
       '@eslint-community/regexpp': 4.12.2
       '@eslint/config-array': 0.23.5(supports-color@10.2.2)
       '@eslint/config-helpers': 0.7.0
