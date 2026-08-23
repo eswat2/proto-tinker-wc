@@ -43,8 +43,8 @@ importers:
         specifier: 0.8.1
         version: 0.8.1(prettier@3.9.6)
       proto-tailwindcss-clrs:
-        specifier: 0.0.536
-        version: 0.0.536
+        specifier: 0.0.537
+        version: 0.0.537
       tailwindcss:
         specifier: 4.3.3
         version: 4.3.3
@@ -1227,8 +1227,8 @@ packages:
     resolution: {integrity: sha512-BLrgEcRTwX2o6gGxGOCNyMvGSp35YofuYzw9h1IMTRmKqttAZZVU67bdb9Pr2vUHA8+j3i2tJfjO6C6+4myGTA==}
     engines: {node: 18 || 20 || >=22}
 
-  baseline-browser-mapping@2.11.17:
-    resolution: {integrity: sha512-KAUDn1OSS0fmPlGO+NOUMRcOQ/b/shUBH3OgkG73mPgdf+JD/BQ6fHboGxNOxnUmlwcq+lLq3dTkayRPuSfXwg==}
+  baseline-browser-mapping@2.11.18:
+    resolution: {integrity: sha512-1iEmLEYSiE1SeBoAfPo/Mnx3PzfzHUkDK61ASkCpuk3YXugYLH5DYK1SzqV55F8FMI6s0F+/tCP7Polz1QRjxw==}
     engines: {node: '>=6.0.0'}
     hasBin: true
 
@@ -2064,8 +2064,8 @@ packages:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
     engines: {node: '>=6'}
 
-  proto-tailwindcss-clrs@0.0.536:
-    resolution: {integrity: sha512-KWPpHvr7580qtPIJE09zfdzBAJjKweRMd8qAT1G0stp3ZZjGZvbO38LH4YGSJJc4PfO1mLt8bc/iUPRt7v7fYA==}
+  proto-tailwindcss-clrs@0.0.537:
+    resolution: {integrity: sha512-FLlV1z5ewd84VYHVRmCBTPX1lFKypZSiUEX4lhtto2+7shBXA5sXK2DXIfyMtt0mjbN/FMf48BU2XC7629gx/Q==}
     engines: {node: '>=18'}
 
   punycode@2.3.1:
@@ -3725,7 +3725,7 @@ snapshots:
 
   balanced-match@4.0.4: {}
 
-  baseline-browser-mapping@2.11.17: {}
+  baseline-browser-mapping@2.11.18: {}
 
   brace-expansion@2.1.4:
     dependencies:
@@ -3737,7 +3737,7 @@ snapshots:
 
   browserslist@4.28.8:
     dependencies:
-      baseline-browser-mapping: 2.11.17
+      baseline-browser-mapping: 2.11.18
       caniuse-lite: 1.0.30001809
       electron-to-chromium: 1.5.412
       node-releases: 2.0.53
@@ -4598,7 +4598,7 @@ snapshots:
 
   pretty-bytes@5.6.0: {}
 
-  proto-tailwindcss-clrs@0.0.536: {}
+  proto-tailwindcss-clrs@0.0.537: {}
 
   punycode@2.3.1: {}
 
