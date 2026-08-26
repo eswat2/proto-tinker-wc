@@ -9,11 +9,11 @@ importers:
   .:
     dependencies:
       '@stencil/core':
-        specifier: 4.44.1
-        version: 4.44.1
+        specifier: 4.44.2
+        version: 4.44.2
       '@stencil/store':
         specifier: 2.2.4
-        version: 2.2.4(@stencil/core@4.44.1)
+        version: 2.2.4(@stencil/core@4.44.2)
     devDependencies:
       autoprefixer:
         specifier: 10.5.4
@@ -1115,8 +1115,8 @@ packages:
     cpu: [x64]
     os: [win32]
 
-  '@stencil/core@4.44.1':
-    resolution: {integrity: sha512-OaFtMODcDcKswPbJC6An6xAcNmeuBggxyUTVKSX1UY7bPtWgIR5mGy1jZ6JkyFGgIxZCj/9wp2r97KBQow9wOQ==}
+  '@stencil/core@4.44.2':
+    resolution: {integrity: sha512-TNaYdlyHfy8UF7glvZwaY6pM0AhgCOXuW5Kx3+AO+ITeaipCHWXi5tkZ6P/3HCL+hUySc60lPKSnZ4xdYIFb4g==}
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
 
@@ -3603,7 +3603,7 @@ snapshots:
   '@rollup/rollup-win32-x64-msvc@4.63.0':
     optional: true
 
-  '@stencil/core@4.44.1':
+  '@stencil/core@4.44.2':
     optionalDependencies:
       '@rollup/rollup-darwin-arm64': 4.44.0
       '@rollup/rollup-darwin-x64': 4.44.0
@@ -3614,9 +3614,9 @@ snapshots:
       '@rollup/rollup-win32-arm64-msvc': 4.44.0
       '@rollup/rollup-win32-x64-msvc': 4.44.0
 
-  '@stencil/store@2.2.4(@stencil/core@4.44.1)':
+  '@stencil/store@2.2.4(@stencil/core@4.44.2)':
     dependencies:
-      '@stencil/core': 4.44.1
+      '@stencil/core': 4.44.2
 
   '@trickfilm400/rollup-plugin-off-main-thread@3.0.0-pre1':
     dependencies:
