@@ -29,11 +29,11 @@
     "format": "prettier --write src"
   },
   "dependencies": {
-    "@stencil/core": "4.44.2",
+    "@stencil/core": "4.45.0",
     "@stencil/store": "2.2.4"
   },
   "devDependencies": {
-    "autoprefixer": "10.5.6",
+    "autoprefixer": "10.6.0",
     "bumpp": "12.3.0",
     "concurrently": "10.0.5",
     "cspell": "10.3.0",
@@ -42,7 +42,7 @@
     "postcss": "8.5.28",
     "prettier": "3.9.6",
     "prettier-plugin-tailwindcss": "0.8.1",
-    "proto-tailwindcss-clrs": "0.0.546",
+    "proto-tailwindcss-clrs": "0.0.547",
     "tailwindcss": "4.3.3",
     "typescript": "5.9.3",
     "workbox-build": "7.4.1",
