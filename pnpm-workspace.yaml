@@ -29,3 +29,4 @@ minimumReleaseAgeExclude:
   - cspell-lib@10.3.1
   - cspell-trie-lib@10.3.1
   - cspell@10.3.1
+  - proto-tailwindcss-clrs@0.0.548
