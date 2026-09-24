@@ -201,8 +201,8 @@ importers:
         specifier: 0.8.1
         version: 0.8.1(prettier@3.9.9)
       proto-tailwindcss-clrs:
-        specifier: 0.0.553
-        version: 0.0.553
+        specifier: 0.0.554
+        version: 0.0.554
       tailwindcss:
         specifier: 4.3.3
         version: 4.3.3
@@ -1587,8 +1587,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.435:
-    resolution: {integrity: sha512-hwZNgb6JmRlmQX/L0yojyu6upuvtR7iGS1hB/9nc7I9vCsvekahqh3noFeXUBRirv9+Hk7E6v/LFz4CW6FvpWA==}
+  electron-to-chromium@1.5.438:
+    resolution: {integrity: sha512-AN9xMU1hJiT65LkCUPL1DZm5TCbOPb2Qsm5pYwFLEXp6/qj9SdT4yMiqs7Qqstwvkn1zF7l36SRGt+s6XcJ0FA==}
 
   emoji-regex@10.6.0:
     resolution: {integrity: sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==}
@@ -2102,8 +2102,8 @@ packages:
   natural-compare@1.4.0:
     resolution: {integrity: sha512-OWND8ei3VtNC9h7V60qff3SVobHr996CTwgxubgyQYEpg290h9J0buyECNNJexkFm5sOajh5G116RYA1c8ZMSw==}
 
-  node-releases@2.0.56:
-    resolution: {integrity: sha512-x0InOIyzgdk+eyaWaRJFH5snEtiImgBgblZ2CyPrLmqqcuMQkEvcDPHbzqbD8eDsSeJbVOjn+crzyzHaM4D+/A==}
+  node-releases@2.0.57:
+    resolution: {integrity: sha512-kQK9LGGFiHtrWiNhZtA7Qbw17AQz+dmsEKODRIVTXA9+e5MS/2gZEBhYJt13GrAz5/IOZKddH/0Z3TP/Zgo+yw==}
     engines: {node: '>=18'}
 
   object-inspect@1.13.4:
@@ -2245,8 +2245,8 @@ packages:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
     engines: {node: '>=6'}
 
-  proto-tailwindcss-clrs@0.0.553:
-    resolution: {integrity: sha512-IPkpGv4q9VIgvYS3vk9AulDjMTnxG/B/NU+zsSeYk7RsAflaJTuK0Pz7fMGi7Fbv1//4n+/3WYkm5goMVU6zkQ==}
+  proto-tailwindcss-clrs@0.0.554:
+    resolution: {integrity: sha512-6SU8pQc0MPKiNmwT4P9TE1K/tIEfAk4uzQ+W/Nkb04y9v49xk/Xcj++b/MWquk3YL5Dkn5fp1XhsuEaXN5CDcQ==}
     engines: {node: '>=18'}
 
   punycode@2.3.1:
@@ -3944,8 +3944,8 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.11.25
       caniuse-lite: 1.0.30001810
-      electron-to-chromium: 1.5.435
-      node-releases: 2.0.56
+      electron-to-chromium: 1.5.438
+      node-releases: 2.0.57
       update-browserslist-db: 1.3.3(browserslist@4.29.0)
 
   buffer-from@1.1.2: {}
@@ -4180,7 +4180,7 @@ snapshots:
     dependencies:
       jake: 10.9.4
 
-  electron-to-chromium@1.5.435: {}
+  electron-to-chromium@1.5.438: {}
 
   emoji-regex@10.6.0: {}
 
@@ -4735,7 +4735,7 @@ snapshots:
 
   natural-compare@1.4.0: {}
 
-  node-releases@2.0.56: {}
+  node-releases@2.0.57: {}
 
   object-inspect@1.13.4: {}
 
@@ -4817,7 +4817,7 @@ snapshots:
 
   pretty-bytes@5.6.0: {}
 
-  proto-tailwindcss-clrs@0.0.553: {}
+  proto-tailwindcss-clrs@0.0.554: {}
 
   punycode@2.3.1: {}
 
