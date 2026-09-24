@@ -36,7 +36,7 @@
     "autoprefixer": "10.6.1",
     "bumpp": "12.3.0",
     "concurrently": "10.0.5",
-    "cspell": "10.3.3",
+    "cspell": "10.3.4",
     "eslint": "10.11.0",
     "only-allow": "1.2.2",
     "postcss": "8.5.28",
