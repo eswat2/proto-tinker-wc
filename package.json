@@ -29,7 +29,7 @@
     "format": "prettier --write src"
   },
   "dependencies": {
-    "@stencil/core": "4.45.1",
+    "@stencil/core": "4.45.2",
     "@stencil/store": "2.2.4"
   },
   "devDependencies": {
@@ -39,10 +39,10 @@
     "cspell": "10.3.6",
     "eslint": "10.12.0",
     "only-allow": "1.2.2",
-    "postcss": "8.5.28",
+    "postcss": "8.5.29",
     "prettier": "3.9.9",
     "prettier-plugin-tailwindcss": "0.8.1",
-    "proto-tailwindcss-clrs": "0.0.557",
+    "proto-tailwindcss-clrs": "0.0.558",
     "tailwindcss": "4.3.3",
     "typescript": "5.9.3",
     "workbox-build": "7.4.1",
@@ -53,5 +53,5 @@
     "url": "https://github.com/eswat2/proto-tinker-wc.git"
   },
   "license": "MIT",
-  "packageManager": "pnpm@12.8.1+sha512.f64ba907507f5ceafe06c8d38e6052d0179444580ec1279ddd5bfc11cb48aa8a2644b66598e07e761da84872a9fc57d5f902b87fa49d024198d558612aabbe45"
+  "packageManager": "pnpm@12.9.1+sha512.06b055fff5cd20dc12781de173ced3310ce0951bf2ec620211a16045d5444d5c93a663210764ef29a653a610459ba0368f0e74f84d80c54723cf95aae7bc0d6d"
 }
