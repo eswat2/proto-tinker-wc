@@ -7,6 +7,5 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - '@stencil/core@4.45.2'
-  - postcss@8.5.29
-  - proto-tailwindcss-clrs@0.0.558
+  - concurrently@10.0.6
+  - proto-tailwindcss-clrs@0.0.560
