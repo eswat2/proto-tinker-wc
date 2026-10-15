@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@stencil/core": "4.45.2",
-    "@stencil/store": "2.2.4"
+    "@stencil/store": "2.2.5"
   },
   "devDependencies": {
     "autoprefixer": "10.6.1",
@@ -42,7 +42,7 @@
     "postcss": "8.5.30",
     "prettier": "3.9.10",
     "prettier-plugin-tailwindcss": "0.8.1",
-    "proto-tailwindcss-clrs": "0.0.563",
+    "proto-tailwindcss-clrs": "0.0.564",
     "tailwindcss": "4.3.3",
     "typescript": "5.9.3",
     "workbox-build": "7.4.1",

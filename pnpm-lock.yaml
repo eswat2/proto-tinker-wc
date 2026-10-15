@@ -170,8 +170,8 @@ importers:
         specifier: 4.45.2
         version: 4.45.2
       '@stencil/store':
-        specifier: 2.2.4
-        version: 2.2.4(@stencil/core@4.45.2)
+        specifier: 2.2.5
+        version: 2.2.5(@stencil/core@4.45.2)
     devDependencies:
       autoprefixer:
         specifier: 10.6.1
@@ -201,8 +201,8 @@ importers:
         specifier: 0.8.1
         version: 0.8.1(prettier@3.9.10)
       proto-tailwindcss-clrs:
-        specifier: 0.0.563
-        version: 0.0.563
+        specifier: 0.0.564
+        version: 0.0.564
       tailwindcss:
         specifier: 4.3.3
         version: 4.3.3
@@ -1293,11 +1293,11 @@ packages:
     engines: {node: '>=16.0.0', npm: '>=7.10.0'}
     hasBin: true
 
-  '@stencil/store@2.2.4':
-    resolution: {integrity: sha512-D2XogVJPIuiqD7q6YWPe4Tsyy2Kr+4u5XlCZLqXNP9DuykncgoizoknFH/spuKUEOpn8YSq0elib3y8zHhKtXQ==}
+  '@stencil/store@2.2.5':
+    resolution: {integrity: sha512-Wnw8/CMHfNl2htxgXzy+k8yFeR1TSc/u7CslNaIXalu+aPp+yfPYCBbLhy1jjjPd3Pe2SObIs0Gu+BgoJUUNrg==}
     engines: {node: '>=18.0.0', npm: '>=6.0.0'}
     peerDependencies:
-      '@stencil/core': '>=2.0.0 || >=3.0.0 || >= 4.0.0-beta.0 || >= 4.0.0'
+      '@stencil/core': '>=2.0.0 || >=3.0.0 || >= 4.0.0 || >=5.0.0-alpha.0 <5.0.0-next.0 || ^5.0.0'
 
   '@trickfilm400/rollup-plugin-off-main-thread@3.0.0-pre1':
     resolution: {integrity: sha512-/67zpWDBLV+oYAEL682s1ktXL0HgqX76f6gaVGkGnVZlBbm1zd0v4Bz8MFF2GGhoX9rvfq3KSQHubFHwa6w6/Q==}
@@ -1587,8 +1587,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.453:
-    resolution: {integrity: sha512-9r/nz9akllr3SZsHUhfK10ktUH6j0Dbo3cKdh91khw0FvR6HhXGnATmOq5X8ena2aq4GXLQ1koh3nvKaQJaNmQ==}
+  electron-to-chromium@1.5.456:
+    resolution: {integrity: sha512-8hboqI6xesozteFb8aa7OGknvxUtTeRJLz0FoePysUEh/oWbddykIGdgpEJRbPRg/nIMfBf2DFos+H2MtvJl2A==}
 
   emoji-regex@10.6.0:
     resolution: {integrity: sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==}
@@ -1690,8 +1690,8 @@ packages:
   fast-deep-equal@3.1.3:
     resolution: {integrity: sha512-f3qQ9oQy9j2AhBe/H9VC91wLmKBCCU/gDOnKNAYG5hswO7BLKj09Hc5HYNz9cGI++xlpDCIgDaitVs03ATR84Q==}
 
-  fast-equals@6.1.1:
-    resolution: {integrity: sha512-VA9UvhVec1yj1UqkCLBCXgFBLbd6Pww2RGLa9biAHfl+/aOU9jTeP3idEtLLFouJIGDeugAxD/GhzHpjOSq4oA==}
+  fast-equals@6.2.0:
+    resolution: {integrity: sha512-e5ZcvjQdvN9EDt9lzDj37cuKNcP8EL+pPcYSWPSSpuzAra8LbymuMdB7wpk2d2OigMKMK7UZ9I5AU8TJswDzpQ==}
     engines: {node: '>=6.0.0'}
 
   fast-json-stable-stringify@2.1.0:
@@ -2245,8 +2245,8 @@ packages:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
     engines: {node: '>=6'}
 
-  proto-tailwindcss-clrs@0.0.563:
-    resolution: {integrity: sha512-FqBge+uufEITFbjs37EzbnXKmox/NzGpWQA0kH7zUj+2vUJFUmloS+uKwvVgdpcu+ZLNLd9M9FNwJFhs9prpvA==}
+  proto-tailwindcss-clrs@0.0.564:
+    resolution: {integrity: sha512-DTXplPE+FuLFOVDVwZzEJEheUN78cEdM8t63lduLEU6Kgz9gf0PDEWG5/2msD0UCtjEumdTFhLtXvEUWpcsrEQ==}
     engines: {node: '>=18'}
 
   punycode@2.3.1:
@@ -3819,7 +3819,7 @@ snapshots:
       '@rollup/rollup-win32-arm64-msvc': 4.44.0
       '@rollup/rollup-win32-x64-msvc': 4.44.0
 
-  '@stencil/store@2.2.4(@stencil/core@4.45.2)':
+  '@stencil/store@2.2.5(@stencil/core@4.45.2)':
     dependencies:
       '@stencil/core': 4.45.2
 
@@ -3944,7 +3944,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.11.28
       caniuse-lite: 1.0.30001816
-      electron-to-chromium: 1.5.453
+      electron-to-chromium: 1.5.456
       node-releases: 2.0.58
       update-browserslist-db: 1.3.4(browserslist@4.29.3)
 
@@ -4052,7 +4052,7 @@ snapshots:
       '@cspell/cspell-pipe': 10.4.0
       '@cspell/cspell-types': 10.4.0
       cspell-trie-lib: 10.4.0(@cspell/cspell-types@10.4.0)
-      fast-equals: 6.1.1
+      fast-equals: 6.2.0
 
   cspell-gitignore@10.4.0:
     dependencies:
@@ -4180,7 +4180,7 @@ snapshots:
     dependencies:
       jake: 10.9.4
 
-  electron-to-chromium@1.5.453: {}
+  electron-to-chromium@1.5.456: {}
 
   emoji-regex@10.6.0: {}
 
@@ -4354,7 +4354,7 @@ snapshots:
 
   fast-deep-equal@3.1.3: {}
 
-  fast-equals@6.1.1: {}
+  fast-equals@6.2.0: {}
 
   fast-json-stable-stringify@2.1.0: {}
 
@@ -4817,7 +4817,7 @@ snapshots:
 
   pretty-bytes@5.6.0: {}
 
-  proto-tailwindcss-clrs@0.0.563: {}
+  proto-tailwindcss-clrs@0.0.564: {}
 
   punycode@2.3.1: {}
 
