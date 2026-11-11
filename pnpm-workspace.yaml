@@ -8,4 +8,5 @@ allowBuilds:
   'proto-tailwindcss-clrs': true
 
 minimumReleaseAgeExclude:
-  - proto-tailwindcss-clrs@0.0.577
+  - '@stencil/core@4.45.3'
+  - prettier@3.10.0
