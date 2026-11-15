@@ -52,6 +52,5 @@
     "type": "git",
     "url": "https://github.com/eswat2/proto-tinker-wc.git"
   },
-  "license": "MIT",
-  "packageManager": "pnpm@12.18.0"
+  "license": "MIT"
 }
