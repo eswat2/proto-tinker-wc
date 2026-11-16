@@ -43,8 +43,8 @@ importers:
         specifier: 0.8.1
         version: 0.8.1(prettier@3.10.1)
       proto-tailwindcss-clrs:
-        specifier: 0.0.579
-        version: 0.0.579
+        specifier: 0.0.580
+        version: 0.0.580
       tailwindcss:
         specifier: 4.3.5
         version: 4.3.5
@@ -1434,8 +1434,8 @@ packages:
     engines: {node: '>=0.10.0'}
     hasBin: true
 
-  electron-to-chromium@1.5.485:
-    resolution: {integrity: sha512-m3uadzR0Z+sR19HGWgfxoZcKv9hE/edVM9OZ+FJ4wNRyfuFtkwZJIDoehEty5sisYVwmge8lKV1tenWOyClVgw==}
+  electron-to-chromium@1.5.486:
+    resolution: {integrity: sha512-rpybw4Ac4ak/An6G1Me2+61xzwobowDGyuJe71QHHOVpkZv4fPVobsLl7WH6zHSKusAMpaHxGKTpOvpy7+r3dQ==}
 
   emoji-regex@10.6.0:
     resolution: {integrity: sha512-toUI84YS5YmxW219erniWD0CIVOo46xGKColeNQRgOzDorgBi1v4D71/OFzgD9GO2UGKIv1C3Sp8DAn0+j5w7A==}
@@ -2096,8 +2096,8 @@ packages:
     resolution: {integrity: sha512-FFw039TmrBqFK8ma/7OL3sDz/VytdtJr044/QUJtH0wK9lb9jLq9tJyIxUwtQJHwar2BqtiA4iCWSwo9JLkzFg==}
     engines: {node: '>=6'}
 
-  proto-tailwindcss-clrs@0.0.579:
-    resolution: {integrity: sha512-mJhKDIHQIc4uwNBgRdlr40jc66y88k5QNIEzgIrjKy4i/74OAZEips5iXVY6OtT+kKEX1AMB/nVkeQhLVmi4lA==}
+  proto-tailwindcss-clrs@0.0.580:
+    resolution: {integrity: sha512-mf35vva1NBD/ZnXJ0eni+/zt28bOsx9OheoLMtr6hbxKZQebNQhh6ooUuYYgpqLUMBQB2frgu+nctv8gQGYl7w==}
     engines: {node: '>=18'}
 
   punycode@2.3.1:
@@ -3800,7 +3800,7 @@ snapshots:
     dependencies:
       baseline-browser-mapping: 2.11.37
       caniuse-lite: 1.0.30001826
-      electron-to-chromium: 1.5.485
+      electron-to-chromium: 1.5.486
       node-releases: 2.0.64
       update-browserslist-db: 1.3.4(browserslist@4.29.5)
 
@@ -4037,7 +4037,7 @@ snapshots:
     dependencies:
       jake: 10.9.4
 
-  electron-to-chromium@1.5.485: {}
+  electron-to-chromium@1.5.486: {}
 
   emoji-regex@10.6.0: {}
 
@@ -4679,7 +4679,7 @@ snapshots:
 
   pretty-bytes@5.6.0: {}
 
-  proto-tailwindcss-clrs@0.0.579: {}
+  proto-tailwindcss-clrs@0.0.580: {}
 
   punycode@2.3.1: {}
 
